@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60vh;
+  width: 100%;
+}
+
+.leftContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 3%;
+  width: 41%;
+}
+
+.rightContainer {
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pictures {
+  margin-left: 5.2%;
+  width: 70%;
+  height: 85vh;
+}
+
+.orangeH4 {
+  text-align: center;
+  color: orange;
+}
+
+button {
+  margin-top: 20px;
+  outline: none;
+  background-color: #fd5b2f;
+  width: 120px;
+  border: 0;
+  height: 35px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+.textDiv {
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+.footerContainer {
+  margin-top: 90px;
+  width: 50%;
+}
+button:hover {
+  border: 0;
+  color: antiquewhite;
+  scale: 1.05;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottomFooter {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgAndText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+}
+
+.icon {
+  margin-bottom: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.subText {
+  margin-top: 10px;
+  font-size: x-small;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
